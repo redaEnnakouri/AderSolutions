@@ -1,0 +1,11 @@
+{
+  "allowJs": true,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["./resources/assets/*"],
+      "@/*": ["./resources/js/*"]
+    }
+  },
+  "exclude": ["node_modules", "vendor","bootstrap","config","database","front","lang","public","routes","tests","storage", "dist"]
+}
